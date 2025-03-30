@@ -1,0 +1,6 @@
+fastapi
+google-genai
+google-generativeai
+httpx
+uvicorn
+google
