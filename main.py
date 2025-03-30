@@ -5,7 +5,7 @@ import pathlib
 import httpx
 app = FastAPI()
 
-@app.get("/")
+@app.post("/")
 def Chatbot(prompt):
     client = genai.Client(api_key="AIzaSyBo2b6UyVbCepoxQwEgP91FFHx_v-bOAKI")
 
